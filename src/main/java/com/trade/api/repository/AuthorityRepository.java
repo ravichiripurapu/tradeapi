@@ -1,0 +1,11 @@
+package com.trade.api.repository;
+
+import com.trade.api.domain.Authority;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+/**
+ * Spring Data JPA repository for the {@link Authority} entity.
+ */
+public interface AuthorityRepository extends JpaRepository<Authority, String> {
+}
