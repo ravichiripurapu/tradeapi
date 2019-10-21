@@ -1,6 +1,6 @@
 package com.trade.api.cucumber;
 
-import com.trade.api.TradeapiApp;
+import com.trade.api.TradeApiApp;
 import io.cucumber.java.Before;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
@@ -8,7 +8,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 @SpringBootTest
 @WebAppConfiguration
-@ContextConfiguration(classes = TradeapiApp.class)
+@ContextConfiguration(classes = TradeApiApp.class)
 public class CucumberContextConfiguration {
 
     @Before

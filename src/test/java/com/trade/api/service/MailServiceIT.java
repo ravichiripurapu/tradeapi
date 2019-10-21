@@ -1,8 +1,8 @@
 package com.trade.api.service;
 
+import com.trade.api.TradeApiApp;
 import com.trade.api.config.Constants;
 
-import com.trade.api.TradeapiApp;
 import com.trade.api.domain.User;
 import io.github.jhipster.config.JHipsterProperties;
 import org.junit.jupiter.api.BeforeEach;
@@ -40,7 +40,7 @@ import static org.mockito.Mockito.*;
 /**
  * Integration tests for {@link MailService}.
  */
-@SpringBootTest(classes = TradeapiApp.class)
+@SpringBootTest(classes = TradeApiApp.class)
 public class MailServiceIT {
 
     private static String languages[] = {

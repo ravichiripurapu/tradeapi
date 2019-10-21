@@ -1,6 +1,6 @@
 package com.trade.api.web.rest.errors;
 
-import com.trade.api.TradeapiApp;
+import com.trade.api.TradeApiApp;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Integration tests {@link ExceptionTranslator} controller advice.
  */
-@SpringBootTest(classes = TradeapiApp.class)
+@SpringBootTest(classes = TradeApiApp.class)
 public class ExceptionTranslatorIT {
 
     @Autowired

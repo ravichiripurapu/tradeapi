@@ -1,6 +1,6 @@
 package com.trade.api.service;
 
-import com.trade.api.TradeapiApp;
+import com.trade.api.TradeApiApp;
 import com.trade.api.config.Constants;
 import com.trade.api.domain.User;
 import com.trade.api.repository.UserRepository;
@@ -31,7 +31,7 @@ import static org.mockito.Mockito.when;
 /**
  * Integration tests for {@link UserService}.
  */
-@SpringBootTest(classes = TradeapiApp.class)
+@SpringBootTest(classes = TradeApiApp.class)
 @Transactional
 public class UserServiceIT {
 

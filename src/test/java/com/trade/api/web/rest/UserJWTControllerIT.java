@@ -1,6 +1,6 @@
 package com.trade.api.web.rest;
 
-import com.trade.api.TradeapiApp;
+import com.trade.api.TradeApiApp;
 import com.trade.api.domain.User;
 import com.trade.api.repository.UserRepository;
 import com.trade.api.security.jwt.TokenProvider;
@@ -27,7 +27,7 @@ import static org.hamcrest.Matchers.not;
 /**
  * Integration tests for the {@link UserJWTController} REST controller.
  */
-@SpringBootTest(classes = TradeapiApp.class)
+@SpringBootTest(classes = TradeApiApp.class)
 public class UserJWTControllerIT {
 
     @Autowired

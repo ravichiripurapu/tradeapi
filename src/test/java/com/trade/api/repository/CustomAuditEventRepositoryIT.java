@@ -1,6 +1,6 @@
 package com.trade.api.repository;
 
-import com.trade.api.TradeapiApp;
+import com.trade.api.TradeApiApp;
 import com.trade.api.config.Constants;
 import com.trade.api.config.audit.AuditEventConverter;
 import com.trade.api.domain.PersistentAuditEvent;
@@ -27,7 +27,7 @@ import static com.trade.api.repository.CustomAuditEventRepository.EVENT_DATA_COL
 /**
  * Integration tests for {@link CustomAuditEventRepository}.
  */
-@SpringBootTest(classes = TradeapiApp.class)
+@SpringBootTest(classes = TradeApiApp.class)
 @Transactional
 public class CustomAuditEventRepositoryIT {
 

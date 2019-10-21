@@ -1,6 +1,6 @@
 package com.trade.api.web.rest;
 
-import com.trade.api.TradeapiApp;
+import com.trade.api.TradeApiApp;
 import com.trade.api.config.Constants;
 import com.trade.api.domain.Authority;
 import com.trade.api.domain.User;
@@ -43,7 +43,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Integration tests for the {@link AccountResource} REST controller.
  */
-@SpringBootTest(classes = TradeapiApp.class)
+@SpringBootTest(classes = TradeApiApp.class)
 public class AccountResourceIT {
 
     @Autowired

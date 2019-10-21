@@ -1,6 +1,6 @@
 package com.trade.api.web.rest;
 
-import com.trade.api.TradeapiApp;
+import com.trade.api.TradeApiApp;
 import io.github.jhipster.config.JHipsterProperties;
 import com.trade.api.config.audit.AuditEventConverter;
 import com.trade.api.domain.PersistentAuditEvent;
@@ -31,7 +31,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Integration tests for the {@link AuditResource} REST controller.
  */
-@SpringBootTest(classes = TradeapiApp.class)
+@SpringBootTest(classes = TradeApiApp.class)
 @Transactional
 public class AuditResourceIT {
 

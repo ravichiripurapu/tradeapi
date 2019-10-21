@@ -24,13 +24,13 @@ import java.util.Collection;
 @SpringBootApplication
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
 @EnableDiscoveryClient
-public class TradeapiApp implements InitializingBean {
+public class TradeApiApp implements InitializingBean {
 
-    private static final Logger log = LoggerFactory.getLogger(TradeapiApp.class);
+    private static final Logger log = LoggerFactory.getLogger(TradeApiApp.class);
 
     private final Environment env;
 
-    public TradeapiApp(Environment env) {
+    public TradeApiApp(Environment env) {
         this.env = env;
     }
 
@@ -60,7 +60,7 @@ public class TradeapiApp implements InitializingBean {
      * @param args the command line arguments.
      */
     public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(TradeapiApp.class);
+        SpringApplication app = new SpringApplication(TradeApiApp.class);
         DefaultProfileUtil.addDefaultProfile(app);
         Environment env = app.run(args).getEnvironment();
         logApplicationStartup(env);

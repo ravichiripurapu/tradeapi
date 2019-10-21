@@ -1,6 +1,6 @@
 package com.trade.api.web.rest;
 
-import com.trade.api.TradeapiApp;
+import com.trade.api.TradeApiApp;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,7 +19,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 /**
  * Integration tests for the {@link ClientForwardController} REST controller.
  */
-@SpringBootTest(classes = TradeapiApp.class)
+@SpringBootTest(classes = TradeApiApp.class)
 public class ClientForwardControllerIT {
 
     private MockMvc restMockMvc;
