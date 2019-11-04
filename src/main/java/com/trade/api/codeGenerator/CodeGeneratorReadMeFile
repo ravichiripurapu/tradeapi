@@ -1,0 +1,17 @@
+1) this one will list out all the columns for a given table name based up on how the columns are created
+    select column_name,data_type
+   from information_schema.columns
+   where table_name = 'symbol' order by ordinal_position;
+
+   select column_name,data_type
+   from information_schema.columns
+   where table_name = 'symbol_hourly' order by ordinal_position;
+
+
+   select column_name,data_type
+   from information_schema.columns
+   where table_name = 'base_url' order by ordinal_position;
+
+
+2) Place it in code Generator
+

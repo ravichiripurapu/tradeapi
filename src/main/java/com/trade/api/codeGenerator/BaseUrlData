@@ -1,0 +1,8 @@
+column_name  |data_type
+-------------|-----------------
+id           |bigint
+name         |character varying
+url          |character varying
+key_name     |character varying
+version_no   |character varying
+executed_date|date

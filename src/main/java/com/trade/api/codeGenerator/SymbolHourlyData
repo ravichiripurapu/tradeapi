@@ -1,0 +1,11 @@
+column_name     |data_type
+----------------|-----------------
+id              |bigint
+name            |character varying
+transaction_date|date
+hour            |integer
+volume          |bigint
+open            |numeric
+close           |numeric
+high            |numeric
+low             |numeric
