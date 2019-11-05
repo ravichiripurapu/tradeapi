@@ -11,6 +11,8 @@ public class DataTypeMapper {
         dataTypeMap.put("date", new DateMapper());
         dataTypeMap.put("numeric", new NumericMapper());
         dataTypeMap.put("integer", new IntegerMapper());
+        dataTypeMap.put("boolean", new BooleanMapper());
+        dataTypeMap.put("timestamp without time zone", new TimeStampMapper());
     }
 
     public Mapper getMapper(String dataType){

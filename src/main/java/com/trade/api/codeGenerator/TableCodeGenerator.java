@@ -24,8 +24,16 @@ public class TableCodeGenerator {
         //File file = new File("/Applications/TradingAPISpringBoot/src/main/java/com/" +
            // "trade/api/codeGenerator/SymbolHourlyData");
         //base url
+        //File file = new File("/Applications/TradingAPISpringBoot/src/main/java/com/" +
+            //"trade/api/codeGenerator/BaseUrlData");
+        //institutional url
+        //File file = new File("/Applications/TradingAPISpringBoot/src/main/java/com/" +
+            //"trade/api/codeGenerator/InstitutionalOwnerData");
+
+        //SymbolInstitutionalOwnerShipData
         File file = new File("/Applications/TradingAPISpringBoot/src/main/java/com/" +
-            "trade/api/codeGenerator/BaseUrlData");
+            "trade/api/codeGenerator/SymbolInstitutionalOwnerShipData");
+
 
         List<ColumnProperties> columnPropertyList = new ArrayList<>();
         try {
